@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Proza+Libre:wght@400;500;600&family=Spinnaker&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html, body {
+    overflow-x: hidden;
+    font-family: Nunito;
+}
+#root {
+    overflow-x: hidden;
+}
+.swiper-pagination-bullet {
+    background: transparent !important;
+    color: rgb(0, 0, 0) !important;
+    @apply px-3;
+}
+.swiper-pagination-bullet-active {
+    color: black;
+}
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 30px;
+}
